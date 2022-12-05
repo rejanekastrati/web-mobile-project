@@ -42,8 +42,8 @@ body {
   display: grid;
   place-items: center;
   height: 100vh;
-  background: #7f7fd5;
-  background: linear-gradient(to right, #91eae4, #86a8e7, #7f7fd5);
+  background: #ffcfbe;
+  background: linear-gradient(to right, #c1826b, #d58162, #ee8762);
 }
 
 .container {
@@ -53,6 +53,10 @@ body {
   max-width: 1200px;
   margin-block: 2rem;
   gap: 2rem;
+}
+
+h1 {
+  margin-block-start: 2rem;
 }
 
 img {
@@ -68,8 +72,8 @@ img {
   overflow: hidden;
   box-shadow: 0 .1rem 1rem rgba(0, 0, 0, 0.1);
   border-radius: 1em;
-  background: #ECE9E6;
-background: linear-gradient(to right, #FFFFFF, #ECE9E6);
+  background: #FFCFBE;
+  background: linear-gradient(to right, #f7d1c5, #e4b4a4);
 
 }
 
@@ -90,25 +94,25 @@ background: linear-gradient(to right, #FFFFFF, #ECE9E6);
   font-size: .75rem;
 }
 
-.tag + .tag {
+.tag+.tag {
   margin-left: .5em;
 }
 
 .tag-blue {
   background: #56CCF2;
-background: linear-gradient(to bottom, #2F80ED, #56CCF2);
+  background: linear-gradient(to bottom, #2F80ED, #56CCF2);
   color: #fafafa;
 }
 
-.tag-brown {
-  background: #D1913C;
-background: linear-gradient(to bottom, #FFD194, #D1913C);
+.tag-purple {
+  background: #b75fed;
+  background: linear-gradient(to bottom, #7e1abc, #9602f2);
   color: #fafafa;
 }
 
-.tag-red {
-  background: #cb2d3e;
-background: linear-gradient(to bottom, #ef473a, #cb2d3e);
+.tag-orange {
+  background: #ffcfbe;
+  background: linear-gradient(to bottom, #f97448, #e56940);
   color: #fafafa;
 }
 
@@ -132,6 +136,6 @@ background: linear-gradient(to bottom, #ef473a, #cb2d3e);
   border-radius: 50%;
 }
 
-.user__info > small {
+.user__info>small {
   color: #666;
 }
