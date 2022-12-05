@@ -57,6 +57,7 @@ body {
 
 h1 {
   margin-block-start: 2rem;
+  color: #fae3da;
 }
 
 img {
@@ -138,4 +139,28 @@ img {
 
 .user__info>small {
   color: #666;
+}
+
+.section.section__cta {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #250e62;
+  background-image: url(https://assets-global.website-files.com/62e027f…/62e027f…_footer-cta-pattern-right.svg),url(https://assets-global.website-files.com/62e027f…/62e027f…_footer-cta-pattern-left.svg);
+  background-position: 100% 100%,0 100%;
+  background-size: 380px,594px;
+  background-repeat: no-repeat,no-repeat;
+}
+
+section.section__blog-content {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  box-sizing: border-box;
+}
+.section {
+  position: relative;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+* {
+  outline: 0 !important;
 }
